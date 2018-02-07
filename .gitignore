@@ -56,4 +56,12 @@ typings/
 
 # dotenv environment variables file
 .env
-
+npm-debug.log
+node_modules
+.DS_Store
+.vscode
+/dist
+/tmp
+/out
+nohup.out
+Thumb.db

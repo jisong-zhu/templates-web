@@ -1,0 +1,26 @@
+version: '0.0.1'
+server:
+    port: 3000
+enablePageChecker: false
+jade_dir: 'app'
+less_dir: 'app'
+js_dir: 'app'
+page_ext: '.pug'
+vendor:
+    js:
+        - "./jquery.min.js"
+        - "./bootstrap/bootstrap.js"
+    css:
+        - "./bootstrap/bootstrap.css"
+    dev:
+        js:
+        css:
+    dev:
+        js:
+        css:
+page_bundles:
+    index:
+        useGlobalVendor: true
+        js:
+            - 'index/demo.js'
+            - 'index.js'
